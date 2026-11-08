@@ -64,7 +64,7 @@
 需要 Python 3，无需安装任何第三方依赖：
 
 ```bash
-git clone https://github.com/zjc2944678910-max/ielts-vocab-hub.git
+git clone https://github.com/zjc-owo/ielts-vocab-hub.git
 cd ielts-vocab-hub
 ./start.sh          # 一键启动：后端 API + 静态页面 + 自动打开浏览器
 ```
