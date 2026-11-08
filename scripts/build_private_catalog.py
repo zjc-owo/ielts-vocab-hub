@@ -41,6 +41,8 @@ def oxford_source_candidates() -> list[Path]:
         candidates.append(Path(env).expanduser())
     github = github_root()
     if github is not None:
+        candidates.append(github / "workspace" / "state" / "project-data" / "ielts-vocab-hub" / "oxford-output")
+        candidates.append(github / "codex-workspace" / "state" / "project-data" / "ielts-vocab-hub" / "oxford-output")
         candidates.append(github / "antigravity-workspace" / "output")
         candidates.append(github / "codex-workspace" / "output")
     # Legacy layouts:

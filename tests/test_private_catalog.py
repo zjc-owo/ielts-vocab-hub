@@ -35,7 +35,7 @@ class PrivateCatalogBuilderTests(unittest.TestCase):
 
     def test_default_oxford_source_survives_products_bucket_move(self):
         root = default_oxford_source_root()
-        expected = Path("/Users/zhangjincheng/Documents/GitHub/antigravity-workspace/output")
+        expected = Path("/Users/zhangjincheng/Documents/GitHub/workspace/state/project-data/ielts-vocab-hub/oxford-output")
         if (expected / OXFORD_SOURCE_MARKER).is_file():
             self.assertEqual(root, expected)
             self.assertTrue((root / OXFORD_SOURCE_MARKER).is_file())
